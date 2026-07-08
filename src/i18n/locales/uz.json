@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "skills": "Ko'nikmalar",
+    "experience": "Tajriba",
+    "projects": "Loyihalar",
+    "contact": "Aloqa"
+  },
+  "theme": {
+    "light": "Yorug'",
+    "dark": "Qorong'u",
+    "toggle": "Mavzuni almashtirish"
+  },
+  "language": {
+    "toggle": "Tilni o'zgartirish"
+  },
+  "hero": {
+    "badge": "Ishga tayyor",
+    "greeting": "Salom, men",
+    "roleBefore": "",
+    "roleHighlight": "Kengaytiriladigan",
+    "roleAfter": " veb-ilovalar yaratuvchi to'liq stack, DevOps va sun'iy intellekt muhandisi",
+    "bio": "NestJS, GraphQL va MERN stack yordamida kengaytiriladigan ilovalar yarataman, bulutga mos (cloud-native) tizimlarni joylashtiraman va Gemini, OpenAI kabi LLM'larni kontekstga asoslangan (context-grounded) prompting orqali real mahsulotlarga integratsiya qilaman.",
+    "downloadResume": "Rezyumeni yuklash",
+    "viewMyWork": "Ishlarimni ko'rish",
+    "availableFreelance": "Frilansga tayyor",
+    "statsProjects": "Bajarilgan loyihalar",
+    "statsYears": "Yillik tajriba",
+    "statsLocationCaption": "Janubiy Koreya",
+    "scrollToExplore": "Pastga aylantiring"
+  },
+  "skills": {
+    "title": "Texnik ko'nikmalar",
+    "description": "Kengaytiriladigan veb-ilovalar, DevOps amaliyotlari va AI integratsiyasiga urg'u berilgan holda zamonaviy dasturlash stekidagi keng qamrovli tajriba.",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "aiml": "AI / ML / Agentic",
+      "integrations": "Integratsiyalar",
+      "devops": "DevOps",
+      "patterns": "Patternlar va vositalar"
+    }
+  },
+  "experience": {
+    "title": "Ish tajribasi",
+    "description": "O'zbekiston va Turkiyadagi jamoalarda to'liq stack, DevOps va AI integratsiyalashgan yechimlar yarataman.",
+    "jobs": [
+      {
+        "title": "FullStack va DevOps muhandisi",
+        "company": "Digital City IT Center",
+        "location": "Toshkent, O'zbekiston",
+        "period": "Sep 2025 - Feb 2026",
+        "bullets": [
+          "TypeScript, Node.js, Python va NestJS, Express, FastAPI kabi zamonaviy freymvorklar yordamida kengaytiriladigan veb-ilovalar va AI yechimlarini ishlab chiqdim. REST/GraphQL API'lar, ma'lumot yig'ish/batching tizimlari va MongoDB, MySQL, Prisma, Redis kabi RDBMS/NoSQL bazalarini qurdim.",
+          "Docker, Nginx, PM2, Shell va Linux yordamida deploy va infratuzilmani boshqardim. Shuningdek, PyTorch, OpenCV yordamida AI va ML/DL yechimlarini yaratdim hamda Codex, Claude, Gemini kabi zamonaviy AI API'larni integratsiya qildim."
+        ]
+      },
+      {
+        "title": "Backend va Frontend dasturchi",
+        "company": "Atlantis Gravity",
+        "location": "Istanbul, Turkiya",
+        "period": "Feb 2023 - Aug 2025",
+        "bullets": [
+          "Node.js va Python yordamida to'liq stack veb-ilovalarni ishlab chiqdim va qo'llab-quvvatladim, frontendda React va Next.js kabi texnologiyalardan foydalandim. RESTful API'lar qurdim, MongoDB va MySQL'ni integratsiya qildim, HTML, CSS va Bootstrap yordamida moslashuvchan interfeyslar yaratdim.",
+          "Jamoa a'zolari bilan hamkorlikda funksiyalarni yetkazib berdim, xatolarni tuzatdim va ilova unumdorligini oshirdim, bu esa kengaytiriladigan va foydalanuvchiga qulay mahsulotlar yaratishga hissa qo'shdi.",
+          "Monorepo strukturasini qo'llab-quvvatladim, npm, Yarn, nvm yordamida bog'liqliklarni boshqardim va versiyalarni nazorat qilish uchun GitHub'dan foydalandim."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Tanlangan loyihalar",
+    "description": "To'liq stack dasturlash, DevOps amaliyotlari va AI integratsiyasidagi tajribamni ko'rsatadigan tanlangan loyihalar.",
+    "code": "Kod",
+    "demo": "Demo",
+    "viewAll": "Barchasini ko'rish",
+    "showLess": "Kamroq ko'rsatish",
+    "items": [
+      { "title": "NearHelp", "description": "AI asosidagi xizmat tavsiyalari, narx bashorati va semantik qidiruvga ega uy xizmatlari marketpleysi (santexnika, elektrik, ta'mirlash). Socket.IO orqali real vaqtda chat va ko'p tillilik (EN/KR/UZ)." },
+      { "title": "QuickStay", "description": "Mehmon/egasi ikki xil rolga ega mehmonxona bron qilish platformasi. Server tomonidagi sana ustma-ustligini tekshirish qayta bron qilishning oldini oladi, Stripe va imzolangan webhook'lar to'lovlarni tasdiqlaydi, Clerk autentifikatsiyasi esa MongoDB bilan real vaqtda sinxronlanadi." },
+      { "title": "AI Habit Tracker", "description": "Google Gemini bilan integratsiyalashgan odat kuzatuvchi. Har bir AI javobi lightweight RAG pattern yordamida foydalanuvchining haqiqiy 7/30/90 kunlik odat tarixiga asoslanadi, drag-and-drop va streak kuzatuvi bilan." },
+      { "title": "Caffiora", "description": "MVC arxitekturasida qurilgan kafe buyurtma platformasi, EJS asosidagi admin panel va JWT/sessiya autentifikatsiyasi bilan." },
+      { "title": "AI Chatbot (Telegram Reminder Bot)", "description": "Tabiiy tildagi rejalarni tushunuvchi va eslatmalar yuboruvchi Telegram bot, OpenAI API va rejalashtirilgan vazifalarni bajarish asosida ishlaydi." }
+    ]
+  },
+  "contact": {
+    "title": "Birgalikda ishlaylik",
+    "description": "Keyingi loyihangizni hayotga tatbiq etishga tayyormisiz? To'liq stack dasturlash va DevOps sohasidagi tajribam maqsadlaringizga qanday yordam berishi mumkinligini muhokama qilaylik.",
+    "email": "Email",
+    "phone": "Telefon",
+    "telegramKakao": "Telegram / KakaoTalk",
+    "location": "Manzil",
+    "locationValue": "Seul, Janubiy Koreya · Masofaviy ishga tayyor",
+    "formTitle": "Xabar yuborish",
+    "yourName": "Ismingiz",
+    "yourEmail": "Emailingiz",
+    "subject": "Mavzu",
+    "yourMessage": "Xabaringiz",
+    "sendMessage": "Xabar yuborish",
+    "alertTitle": "Xabar yuborildi",
+    "alertText": "Murojaat qilganingiz uchun rahmat! Tez orada javob beraman."
+  },
+  "footer": {
+    "role": "Full-Stack dasturchi | DevOps muhandisi | AI muhandisi",
+    "rights": "© 2026 Abdukodir Sheraliev. Barcha huquqlar himoyalangan."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "홈",
+    "skills": "기술",
+    "experience": "경력",
+    "projects": "프로젝트",
+    "contact": "연락처"
+  },
+  "theme": {
+    "light": "라이트",
+    "dark": "다크",
+    "toggle": "테마 전환"
+  },
+  "language": {
+    "toggle": "언어 변경"
+  },
+  "hero": {
+    "badge": "구인 가능",
+    "greeting": "안녕하세요, 저는",
+    "roleBefore": "",
+    "roleHighlight": "확장 가능한",
+    "roleAfter": " 웹 애플리케이션을 만드는 풀스택, 데브옵스 & AI 엔지니어입니다",
+    "bio": "NestJS, GraphQL, MERN 스택으로 확장 가능한 애플리케이션을 구축하고, 클라우드 네이티브 시스템을 배포하며, Gemini와 OpenAI 같은 LLM을 컨텍스트 기반 프롬프팅으로 실제 제품에 통합합니다.",
+    "downloadResume": "이력서 다운로드",
+    "viewMyWork": "작업 보기",
+    "availableFreelance": "프리랜스 가능",
+    "statsProjects": "완료 프로젝트",
+    "statsYears": "경력 연수",
+    "statsLocationCaption": "대한민국",
+    "scrollToExplore": "스크롤하여 더 보기"
+  },
+  "skills": {
+    "title": "기술 스택",
+    "description": "확장 가능한 웹 애플리케이션, 데브옵스 실무, AI 통합에 중점을 둔 최신 개발 스택 전반에 걸친 폭넓은 전문성.",
+    "categories": {
+      "backend": "백엔드",
+      "frontend": "프론트엔드",
+      "aiml": "AI / ML / 에이전틱",
+      "integrations": "연동",
+      "devops": "데브옵스",
+      "patterns": "패턴 및 도구"
+    }
+  },
+  "experience": {
+    "title": "경력",
+    "description": "우즈베키스탄과 튀르키예의 팀에서 풀스택, 데브옵스, AI 통합 솔루션을 구축하고 있습니다.",
+    "jobs": [
+      {
+        "title": "풀스택 및 데브옵스 엔지니어",
+        "company": "Digital City IT Center",
+        "location": "타슈켄트, 우즈베키스탄",
+        "period": "Sep 2025 - Feb 2026",
+        "bullets": [
+          "TypeScript, Node.js, Python 및 NestJS, Express, FastAPI와 같은 최신 프레임워크를 사용하여 확장 가능한 웹 애플리케이션과 AI 솔루션을 개발했습니다. REST/GraphQL API, 데이터 크롤링/배칭 시스템, MongoDB·MySQL·Prisma·Redis 등 RDBMS/NoSQL을 구축했습니다.",
+          "Docker, Nginx, PM2, Shell, Linux를 사용하여 배포 및 인프라를 관리했습니다. 또한 PyTorch, OpenCV를 활용한 AI 및 ML/DL 솔루션을 구축하고 Codex, Claude, Gemini와 같은 최신 AI API를 통합했습니다."
+        ]
+      },
+      {
+        "title": "백엔드 및 프론트엔드 개발자",
+        "company": "Atlantis Gravity",
+        "location": "이스탄불, 튀르키예",
+        "period": "Feb 2023 - Aug 2025",
+        "bullets": [
+          "Node.js와 Python을 사용하여 풀스택 웹 애플리케이션을 개발 및 유지보수했으며, React·Next.js 등 프론트엔드 기술을 활용했습니다. RESTful API를 구축하고 MongoDB·MySQL을 연동했으며 HTML, CSS, Bootstrap으로 반응형 UI를 제작했습니다.",
+          "팀원들과 협업하여 기능을 제공하고 버그를 수정했으며 애플리케이션 성능을 개선하여 확장 가능하고 사용자 친화적인 제품에 기여했습니다.",
+          "모노레포 구조를 유지 관리하고 npm, Yarn, nvm으로 의존성을 관리했으며 GitHub로 버전 관리를 수행했습니다."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "주요 프로젝트",
+    "description": "풀스택 개발, 데브옵스 실무, AI 통합 분야의 전문성을 보여주는 선별된 프로젝트입니다.",
+    "code": "코드",
+    "demo": "데모",
+    "viewAll": "전체 보기",
+    "showLess": "간략히 보기",
+    "items": [
+      { "title": "NearHelp", "description": "AI 기반 서비스 추천, 가격 예측, 시맨틱 검색을 갖춘 홈 서비스 마켓플레이스(배관, 전기, 수리)입니다. Socket.IO를 통한 실시간 채팅과 다국어(EN/KR/UZ) 지원을 제공합니다." },
+      { "title": "QuickStay", "description": "게스트/오너 이중 역할을 지원하는 호텔 예약 플랫폼입니다. 서버 측 날짜 중복 검사로 이중 예약을 방지하고, Stripe와 서명된 웹훅으로 결제를 확인하며, Clerk 인증이 MongoDB와 실시간으로 동기화됩니다." },
+      { "title": "AI Habit Tracker", "description": "Google Gemini와 연동된 습관 트래커입니다. 모든 AI 응답은 경량 RAG 패턴을 사용해 사용자의 실제 7/30/90일 습관 기록에 근거하며, 드래그 앤 드롭과 연속 기록(streak) 추적 기능을 제공합니다." },
+      { "title": "Caffiora", "description": "MVC 아키텍처로 구축된 카페 주문 플랫폼으로, EJS 기반 관리자 패널과 JWT/세션 인증을 갖추고 있습니다." },
+      { "title": "AI Chatbot (Telegram Reminder Bot)", "description": "자연어로 된 일정을 이해하고 알림을 보내는 텔레그램 봇으로, OpenAI API와 예약 작업 실행 기능을 기반으로 합니다." }
+    ]
+  },
+  "contact": {
+    "title": "함께 일해요",
+    "description": "다음 프로젝트를 현실로 만들 준비가 되셨나요? 풀스택 개발과 데브옵스 전문성이 목표 달성에 어떻게 도움이 될 수 있는지 이야기해봐요.",
+    "email": "이메일",
+    "phone": "전화번호",
+    "telegramKakao": "Telegram / KakaoTalk",
+    "location": "위치",
+    "locationValue": "서울, 대한민국 · 원격 근무 가능",
+    "formTitle": "메시지 보내기",
+    "yourName": "이름",
+    "yourEmail": "이메일",
+    "subject": "제목",
+    "yourMessage": "메시지",
+    "sendMessage": "메시지 보내기",
+    "alertTitle": "메시지가 전송되었습니다",
+    "alertText": "연락 주셔서 감사합니다! 곧 답변드리겠습니다."
+  },
+  "footer": {
+    "role": "풀스택 개발자 | 데브옵스 엔지니어 | AI 엔지니어",
+    "rights": "© 2026 Abdukodir Sheraliev. 모든 권리 보유."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "toggle": "Change language"
+  },
+  "hero": {
+    "badge": "Available for Work",
+    "greeting": "Hello, I'm",
+    "roleBefore": "Full-Stack, DevOps & AI Engineer building",
+    "roleHighlight": "scalable",
+    "roleAfter": " web applications",
+    "bio": "Building scalable applications with NestJS, GraphQL, and the MERN stack, deploying cloud-native systems, and integrating LLMs like Gemini and OpenAI into real products with context-grounded prompting.",
+    "downloadResume": "Download Resume",
+    "viewMyWork": "View My Work",
+    "availableFreelance": "Available for freelance",
+    "statsProjects": "Projects Shipped",
+    "statsYears": "Years Exp",
+    "statsLocationCaption": "South Korea",
+    "scrollToExplore": "Scroll to explore"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "description": "Comprehensive expertise across the modern development stack, with focus on scalable web applications, DevOps practices, and AI integration.",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "aiml": "AI / ML / Agentic",
+      "integrations": "Integrations",
+      "devops": "DevOps",
+      "patterns": "Patterns & Tools"
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "description": "Building full-stack, DevOps, and AI-integrated solutions across teams in Uzbekistan and Türkiye.",
+    "jobs": [
+      {
+        "title": "FullStack and DevOps Engineer",
+        "company": "Digital City IT Center",
+        "location": "Tashkent, Uzbekistan",
+        "period": "Sep 2025 - Feb 2026",
+        "bullets": [
+          "Developed scalable web applications and AI solutions using TypeScript, Node.js, Python and modern frameworks like NestJS, Express, and FastAPI. Built REST/GraphQL APIs, data crawling/batching systems and RDBS/NoSQL as MongoDB, MySQL, Prisma, Redis.",
+          "Managed deployment and infrastructure using Docker, Nginx, PM2, Shell and Linux. Also built AI and ML/DL solutions using PyTorch, OpenCV, and integrated modern AI APIs Codex, Claude, Gemini."
+        ]
+      },
+      {
+        "title": "Backend and Frontend Developer",
+        "company": "Atlantis Gravity",
+        "location": "Istanbul, Türkiye",
+        "period": "Feb 2023 - Aug 2025",
+        "bullets": [
+          "Developed and maintained fullstack web applications using Node.js and Python, with frontend technologies like React and Next.js. Built RESTful APIs, integrated MongoDB and MySQL, and created responsive user interfaces using HTML, CSS, and Bootstrap.",
+          "Collaborated with team members to deliver features, fix bugs, and improve application performance, contributing to scalable and user-friendly products.",
+          "Maintained monorepo structure, managed dependencies with npm, Yarn, nvm, and utilized GitHub for version control."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "A selection of projects that demonstrate my expertise in full-stack development, DevOps practices, and AI integration.",
+    "code": "Code",
+    "demo": "Demo",
+    "viewAll": "View All",
+    "showLess": "Show Less",
+    "items": [
+      { "title": "NearHelp", "description": "Home services marketplace (plumbing, electrical, repair) with AI-powered service recommendations, price estimation, and semantic search. Multilingual (EN/KR/UZ) with real-time chat via Socket.IO." },
+      { "title": "QuickStay", "description": "Hotel booking platform with dual guest/owner roles. Server-side date-overlap checks prevent double booking, Stripe + signed webhooks confirm payments, and Clerk auth syncs in real time with MongoDB." },
+      { "title": "AI Habit Tracker", "description": "Habit tracker integrated with Google Gemini. Every AI response is grounded in the user's actual 7/30/90-day habit history using a lightweight RAG pattern, with drag-and-drop and streak tracking." },
+      { "title": "Caffiora", "description": "Cafe ordering platform built on an MVC architecture, with an EJS-based admin panel and JWT/session authentication." },
+      { "title": "AI Chatbot (Telegram Reminder Bot)", "description": "Telegram bot that understands plans in natural language and sends reminders, powered by the OpenAI API with scheduled task execution." }
+    ]
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "description": "Ready to bring your next project to life? Let's discuss how my expertise in full-stack development and DevOps can help achieve your goals.",
+    "email": "Email",
+    "phone": "Phone",
+    "telegramKakao": "Telegram / KakaoTalk",
+    "location": "Location",
+    "locationValue": "Seoul, South Korea · Open to Remote Work",
+    "formTitle": "Send a Message",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "yourMessage": "Your Message",
+    "sendMessage": "Send Message",
+    "alertTitle": "Message Sent",
+    "alertText": "Thanks for reaching out! I'll get back to you soon."
+  },
+  "footer": {
+    "role": "Full-Stack Developer | DevOps Engineer | AI Engineer",
+    "rights": "© 2026 Abdukodir Sheraliev. All rights reserved."
+  }
+}

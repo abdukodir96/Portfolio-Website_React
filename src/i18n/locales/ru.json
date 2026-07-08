@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Главная",
+    "skills": "Навыки",
+    "experience": "Опыт",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "theme": {
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "toggle": "Переключить тему"
+  },
+  "language": {
+    "toggle": "Сменить язык"
+  },
+  "hero": {
+    "badge": "Готов к работе",
+    "greeting": "Привет, я",
+    "roleBefore": "Full-Stack, DevOps и AI-инженер, создающий",
+    "roleHighlight": "масштабируемые",
+    "roleAfter": " веб-приложения",
+    "bio": "Создаю масштабируемые приложения на NestJS, GraphQL и стеке MERN, разворачиваю cloud-native системы и интегрирую LLM (Gemini, OpenAI) в реальные продукты с помощью контекстно-обоснованного prompting.",
+    "downloadResume": "Скачать резюме",
+    "viewMyWork": "Посмотреть работы",
+    "availableFreelance": "Готов к фрилансу",
+    "statsProjects": "Завершённые проекты",
+    "statsYears": "Лет опыта",
+    "statsLocationCaption": "Южная Корея",
+    "scrollToExplore": "Прокрутите вниз"
+  },
+  "skills": {
+    "title": "Технические навыки",
+    "description": "Всесторонняя экспертиза в современном стеке разработки с акцентом на масштабируемые веб-приложения, практики DevOps и интеграцию AI.",
+    "categories": {
+      "backend": "Бэкенд",
+      "frontend": "Фронтенд",
+      "aiml": "AI / ML / Агентные системы",
+      "integrations": "Интеграции",
+      "devops": "DevOps",
+      "patterns": "Паттерны и инструменты"
+    }
+  },
+  "experience": {
+    "title": "Опыт работы",
+    "description": "Разрабатываю full-stack, DevOps и AI-интегрированные решения в командах в Узбекистане и Турции.",
+    "jobs": [
+      {
+        "title": "Full-Stack и DevOps инженер",
+        "company": "Digital City IT Center",
+        "location": "Ташкент, Узбекистан",
+        "period": "Sep 2025 - Feb 2026",
+        "bullets": [
+          "Разрабатывал масштабируемые веб-приложения и AI-решения на TypeScript, Node.js, Python и современных фреймворках NestJS, Express, FastAPI. Создавал REST/GraphQL API, системы сбора/пакетной обработки данных и работал с RDBMS/NoSQL: MongoDB, MySQL, Prisma, Redis.",
+          "Управлял развёртыванием и инфраструктурой с помощью Docker, Nginx, PM2, Shell и Linux. Также создавал AI и ML/DL решения на PyTorch, OpenCV и интегрировал современные AI API: Codex, Claude, Gemini."
+        ]
+      },
+      {
+        "title": "Backend и Frontend разработчик",
+        "company": "Atlantis Gravity",
+        "location": "Стамбул, Турция",
+        "period": "Feb 2023 - Aug 2025",
+        "bullets": [
+          "Разрабатывал и поддерживал full-stack веб-приложения на Node.js и Python, используя React и Next.js на фронтенде. Создавал RESTful API, интегрировал MongoDB и MySQL, а также разрабатывал адаптивные интерфейсы на HTML, CSS и Bootstrap.",
+          "Сотрудничал с командой над реализацией функций, исправлением багов и повышением производительности приложений, внося вклад в масштабируемые и удобные продукты.",
+          "Поддерживал структуру monorepo, управлял зависимостями через npm, Yarn, nvm и использовал GitHub для контроля версий."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Избранные проекты",
+    "description": "Подборка проектов, демонстрирующих мою экспертизу в full-stack разработке, практиках DevOps и интеграции AI.",
+    "code": "Код",
+    "demo": "Демо",
+    "viewAll": "Показать все",
+    "showLess": "Свернуть",
+    "items": [
+      { "title": "NearHelp", "description": "Маркетплейс бытовых услуг (сантехника, электрика, ремонт) с AI-рекомендациями услуг, оценкой стоимости и семантическим поиском. Многоязычность (EN/KR/UZ) и чат в реальном времени через Socket.IO." },
+      { "title": "QuickStay", "description": "Платформа бронирования отелей с ролями гостя и владельца. Серверная проверка пересечения дат предотвращает двойное бронирование, Stripe и подписанные webhook подтверждают оплату, а аутентификация Clerk синхронизируется с MongoDB в реальном времени." },
+      { "title": "AI Habit Tracker", "description": "Трекер привычек с интеграцией Google Gemini. Каждый ответ AI опирается на реальную историю привычек пользователя за 7/30/90 дней с помощью облегчённого RAG-паттерна, включает drag-and-drop и отслеживание серий (streak)." },
+      { "title": "Caffiora", "description": "Платформа заказа для кафе на архитектуре MVC с админ-панелью на EJS и аутентификацией JWT/сессий." },
+      { "title": "AI Chatbot (Telegram Reminder Bot)", "description": "Telegram-бот, понимающий планы на естественном языке и отправляющий напоминания, на базе OpenAI API с выполнением задач по расписанию." }
+    ]
+  },
+  "contact": {
+    "title": "Давайте работать вместе",
+    "description": "Готовы воплотить свой следующий проект в жизнь? Давайте обсудим, как моя экспертиза в full-stack разработке и DevOps поможет достичь ваших целей.",
+    "email": "Email",
+    "phone": "Телефон",
+    "telegramKakao": "Telegram / KakaoTalk",
+    "location": "Локация",
+    "locationValue": "Сеул, Южная Корея · Готов к удалённой работе",
+    "formTitle": "Отправить сообщение",
+    "yourName": "Ваше имя",
+    "yourEmail": "Ваш email",
+    "subject": "Тема",
+    "yourMessage": "Ваше сообщение",
+    "sendMessage": "Отправить сообщение",
+    "alertTitle": "Сообщение отправлено",
+    "alertText": "Спасибо за обращение! Я скоро свяжусь с вами."
+  },
+  "footer": {
+    "role": "Full-Stack разработчик | DevOps инженер | AI инженер",
+    "rights": "© 2026 Abdukodir Sheraliev. Все права защищены."
+  }
+}

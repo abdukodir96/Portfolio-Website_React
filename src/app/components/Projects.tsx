@@ -14,21 +14,23 @@ type ProjectItem = {
   description: string;
 };
 
+const BASE = import.meta.env.BASE_URL;
+
 const projectMeta = [
   {
-    image: "/nearhelps.png",
+    image: `${BASE}nearhelps.png`,
     technologies: ["NestJS", "GraphQL", "MongoDB", "Next.js", "Socket.IO", "i18next"],
     github: "#",
     demo: "https://nearhelps.com"
   },
   {
-    image: "/quickstay.png",
+    image: `${BASE}quickstay.png`,
     technologies: ["React 19", "Express 5", "MongoDB", "Stripe", "Clerk"],
     github: "#",
     demo: "https://quickstayhotel.com"
   },
   {
-    image: "/aihabit.png",
+    image: `${BASE}aihabit.png`,
     technologies: ["React 19", "Vite", "Tailwind CSS v4", "Node.js", "Gemini API", "MongoDB"],
     github: "#",
     demo: "https://aihabittracker.online"

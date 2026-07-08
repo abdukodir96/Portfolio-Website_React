@@ -4,6 +4,8 @@ import { Badge } from "./ui/badge";
 import { Download, ArrowDown, Sparkles } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
+const BASE = import.meta.env.BASE_URL;
+
 export function Hero() {
   const { t } = useTranslation();
   return (
@@ -72,7 +74,7 @@ export function Hero() {
                 className="group relative overflow-hidden px-8 py-6"
                 asChild
               >
-                <a href="/resume.pdf" download>
+                <a href={`${BASE}resume.pdf`} download>
                   <span className="relative z-10 flex items-center gap-2">
                     <Download className="h-5 w-5" />
                     {t("hero.downloadResume")}
@@ -104,7 +106,7 @@ export function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="/github.svg" alt="GitHub" className="h-5 w-5" />
+                  <img src={`${BASE}github.svg`} alt="GitHub" className="h-5 w-5" />
                 </a>
               </Button>
               <Button
@@ -118,7 +120,7 @@ export function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="/telegram.webp" alt="Telegram" className="h-5 w-5" />
+                  <img src={`${BASE}telegram.webp`} alt="Telegram" className="h-5 w-5" />
                 </a>
               </Button>
               <Button
@@ -128,7 +130,7 @@ export function Hero() {
                 className="h-12 w-12 rounded-full bg-white border border-primary/10 hover:bg-primary/10 hover:border-primary/30 transition-all duration-300"
               >
                 <a href="mailto:abdukodirsheraliev1@gmail.com">
-                  <img src="/email.webp" alt="Email" className="h-5 w-5" />
+                  <img src={`${BASE}email.webp`} alt="Email" className="h-5 w-5" />
                 </a>
               </Button>
             </div>
@@ -163,7 +165,7 @@ export function Hero() {
               <div className="relative z-10 group">
                 <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur-sm border-4 border-background/50 shadow-2xl">
                   <ImageWithFallback
-                    src="/profile.jpg"
+                    src={`${BASE}profile.jpg`}
                     alt="Abdukodir Sheraliev - Full-Stack, DevOps & AI Engineer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />

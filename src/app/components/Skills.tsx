@@ -3,12 +3,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Code, Settings, Globe, Sparkles, Plug } from "lucide-react";
 
+const BASE = import.meta.env.BASE_URL;
+
 export function Skills() {
   const { t } = useTranslation();
 
   const skillCategories = [
     {
-      iconSrc: "/backend.webp",
+      iconSrc: `${BASE}backend.webp`,
       titleKey: "backend",
       skills: ["NestJS", "Node.js", "Express.js", "FastAPI", "Python", "GraphQL", "REST API", "MongoDB", "Mongoose", "PostgreSQL", "Prisma", "MySQL", "Redis", "JWT", "Socket.IO", "SQLAlchemy"]
     },

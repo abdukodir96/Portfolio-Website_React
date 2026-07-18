@@ -30,7 +30,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative z-10 max-w-[120rem] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-[108rem] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Side - Content */}
           <div className="space-y-8 text-center lg:text-left order-2 lg:order-1">

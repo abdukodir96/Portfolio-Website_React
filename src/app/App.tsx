@@ -28,7 +28,7 @@ export default function App() {
       <div className="min-h-screen bg-background transition-colors duration-300">
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
-          <div className="max-w-[120rem] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-[108rem] mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <div className="shrink-0">
                 <h3 className="tracking-tight font-bold text-lg">Abdukodir Sheraliev</h3>
@@ -110,7 +110,7 @@ export default function App() {
 
         {/* Footer */}
         <footer className="bg-secondary/10 py-12 px-4">
-          <div className="max-w-[84rem] mx-auto text-center">
+          <div className="max-w-[75.6rem] mx-auto text-center">
             <h3 className="mb-4">Abdukodir Sheraliev (Steve)</h3>
             <p className="text-muted-foreground mb-6">
               {t("footer.role")}

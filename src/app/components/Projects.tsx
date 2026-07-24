@@ -36,7 +36,7 @@ const projectMeta = [
     demo: "https://aihabittracker.online"
   },
   {
-    image: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&h=400&fit=crop",
+    image: `${BASE}Caffiora.png`,
     technologies: ["React", "TypeScript", "Redux Toolkit", "Zustand", "MUI", "Node.js", "MongoDB"],
     github: "#",
     demo: "#"

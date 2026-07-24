@@ -56,14 +56,23 @@
         ]
       },
       {
+        "title": "Full-Stack Developer",
+        "company": "Incode Group",
+        "location": "Tashkent, Uzbekistan",
+        "period": "Aug 2024 - Aug 2025",
+        "bullets": [
+          "Architected and developed MERN applications with React and TypeScript, building robust server-side apps in Node.js/Express.js and implementing authentication with JWT, express-session, and BcryptJS.",
+          "Configured DNS and firewalls on Linux, deployed with Docker and Nginx, integrated Grafana for monitoring, and managed infrastructure using PM2, XShell, FileZilla, GitHub, and package managers (Yarn, nvm, npm)."
+        ]
+      },
+      {
         "title": "Backend and Frontend Developer",
         "company": "Atlantis Gravity",
         "location": "Istanbul, Türkiye",
-        "period": "Feb 2023 - Aug 2025",
+        "period": "Jan 2023 - Aug 2024",
         "bullets": [
-          "Developed and maintained fullstack web applications using Node.js and Python, with frontend technologies like React and Next.js. Built RESTful APIs, integrated MongoDB and MySQL, and created responsive user interfaces using HTML, CSS, and Bootstrap.",
-          "Collaborated with team members to deliver features, fix bugs, and improve application performance, contributing to scalable and user-friendly products.",
-          "Maintained monorepo structure, managed dependencies with npm, Yarn, nvm, and utilized GitHub for version control."
+          "Developed and maintained fullstack web applications with Node.js, Python, React, and Next.js — building RESTful APIs, integrating MongoDB/MySQL, and creating responsive UIs with HTML, CSS, and Bootstrap.",
+          "Collaborated with the team to deliver features, fix bugs, and improve performance, while managing a monorepo with npm/Yarn/nvm and GitHub for version control."
         ]
       }
     ]
@@ -76,6 +85,7 @@
     "viewAll": "View All",
     "showLess": "Show Less",
     "items": [
+      { "title": "MediBridge", "description": "Korea medical tourism marketplace built on a microservice architecture — NestJS API Gateway, a GraphQL/MongoDB core service, Stripe-powered escrow payments (PostgreSQL/Prisma), real-time multilingual chat, and a Python/FastAPI AI service for translation and clinic recommendations, connected via RabbitMQ." },
       { "title": "NearHelp", "description": "Home services marketplace (plumbing, electrical, repair) with AI-powered service recommendations, price estimation, and semantic search. Multilingual (EN/KR/UZ) with real-time chat via Socket.IO." },
       { "title": "QuickStay", "description": "Hotel booking platform with dual guest/owner roles. Server-side date-overlap checks prevent double booking, Stripe + signed webhooks confirm payments, and Clerk auth syncs in real time with MongoDB." },
       { "title": "AI Habit Tracker", "description": "Habit tracker integrated with Google Gemini. Every AI response is grounded in the user's actual 7/30/90-day habit history using a lightweight RAG pattern, with drag-and-drop and streak tracking." },

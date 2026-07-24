@@ -56,14 +56,23 @@
         ]
       },
       {
+        "title": "Full-Stack dasturchi",
+        "company": "Incode Group",
+        "location": "Toshkent, O'zbekiston",
+        "period": "Aug 2024 - Aug 2025",
+        "bullets": [
+          "React va TypeScript yordamida MERN ilovalarini loyihalashtirdim va ishlab chiqdim, Node.js/Express.js asosida ishonchli server tomonini qurdim hamda JWT, express-session va BcryptJS yordamida autentifikatsiyani amalga oshirdim.",
+          "Linux'da DNS va firewall'larni sozladim, Docker va Nginx yordamida deploy qildim, monitoring uchun Grafana'ni integratsiya qildim, shuningdek PM2, XShell, FileZilla, GitHub va paket menejerlari (Yarn, nvm, npm) yordamida infratuzilmani boshqardim."
+        ]
+      },
+      {
         "title": "Backend va Frontend dasturchi",
         "company": "Atlantis Gravity",
         "location": "Istanbul, Turkiya",
-        "period": "Feb 2023 - Aug 2025",
+        "period": "Jan 2023 - Aug 2024",
         "bullets": [
-          "Node.js va Python yordamida to'liq stack veb-ilovalarni ishlab chiqdim va qo'llab-quvvatladim, frontendda React va Next.js kabi texnologiyalardan foydalandim. RESTful API'lar qurdim, MongoDB va MySQL'ni integratsiya qildim, HTML, CSS va Bootstrap yordamida moslashuvchan interfeyslar yaratdim.",
-          "Jamoa a'zolari bilan hamkorlikda funksiyalarni yetkazib berdim, xatolarni tuzatdim va ilova unumdorligini oshirdim, bu esa kengaytiriladigan va foydalanuvchiga qulay mahsulotlar yaratishga hissa qo'shdi.",
-          "Monorepo strukturasini qo'llab-quvvatladim, npm, Yarn, nvm yordamida bog'liqliklarni boshqardim va versiyalarni nazorat qilish uchun GitHub'dan foydalandim."
+          "Node.js, Python, React va Next.js yordamida to'liq stack veb-ilovalarni ishlab chiqdim va qo'llab-quvvatladim — RESTful API'lar qurdim, MongoDB/MySQL'ni integratsiya qildim va HTML, CSS, Bootstrap yordamida moslashuvchan interfeyslar yaratdim.",
+          "Jamoa bilan hamkorlikda funksiyalarni yetkazib berdim, xatolarni tuzatdim va unumdorlikni oshirdim, shuningdek npm/Yarn/nvm yordamida monorepo'ni va versiya nazoratini GitHub orqali boshqardim."
         ]
       }
     ]
@@ -76,6 +85,7 @@
     "viewAll": "Barchasini ko'rish",
     "showLess": "Kamroq ko'rsatish",
     "items": [
+      { "title": "MediBridge", "description": "Koreyadagi tibbiy turizm marketpleysi, mikroservis arxitekturasida qurilgan — NestJS API Gateway, GraphQL/MongoDB asosidagi core service, Stripe orqali escrow to'lovlar (PostgreSQL/Prisma), real vaqtda ko'p tilli chat va tarjima/klinika tavsiyasi uchun Python/FastAPI AI service, hammasi RabbitMQ orqali bog'langan." },
       { "title": "NearHelp", "description": "AI asosidagi xizmat tavsiyalari, narx bashorati va semantik qidiruvga ega uy xizmatlari marketpleysi (santexnika, elektrik, ta'mirlash). Socket.IO orqali real vaqtda chat va ko'p tillilik (EN/KR/UZ)." },
       { "title": "QuickStay", "description": "Mehmon/egasi ikki xil rolga ega mehmonxona bron qilish platformasi. Server tomonidagi sana ustma-ustligini tekshirish qayta bron qilishning oldini oladi, Stripe va imzolangan webhook'lar to'lovlarni tasdiqlaydi, Clerk autentifikatsiyasi esa MongoDB bilan real vaqtda sinxronlanadi." },
       { "title": "AI Habit Tracker", "description": "Google Gemini bilan integratsiyalashgan odat kuzatuvchi. Har bir AI javobi lightweight RAG pattern yordamida foydalanuvchining haqiqiy 7/30/90 kunlik odat tarixiga asoslanadi, drag-and-drop va streak kuzatuvi bilan." },

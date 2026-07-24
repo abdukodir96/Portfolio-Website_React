@@ -18,6 +18,12 @@ const BASE = import.meta.env.BASE_URL;
 
 const projectMeta = [
   {
+    image: `${BASE}MediBridge.png`,
+    technologies: ["Next.js", "NestJS", "GraphQL", "MongoDB", "PostgreSQL", "Prisma", "Socket.IO", "RabbitMQ", "FastAPI", "Stripe"],
+    github: "#",
+    demo: "#"
+  },
+  {
     image: `${BASE}nearhelps.png`,
     technologies: ["NestJS", "GraphQL", "MongoDB", "Next.js", "Socket.IO", "i18next"],
     github: "#",

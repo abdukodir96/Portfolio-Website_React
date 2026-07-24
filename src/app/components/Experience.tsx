@@ -13,6 +13,7 @@ type Job = {
 
 const technologiesByJob = [
   ["TypeScript", "NestJS", "Express", "FastAPI", "MongoDB", "MySQL", "Prisma", "Redis", "Docker", "Nginx", "PyTorch", "OpenCV"],
+  ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "JWT", "Docker", "Nginx", "PM2", "Linux", "Grafana", "GitHub"],
   ["Node.js", "Python", "React", "Next.js", "MongoDB", "MySQL", "HTML", "CSS", "Bootstrap", "GitHub"]
 ];
 

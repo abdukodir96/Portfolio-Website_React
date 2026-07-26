@@ -49,30 +49,26 @@
         "title": "Full-Stack и DevOps инженер",
         "company": "Digital City IT Center",
         "location": "Ташкент, Узбекистан",
-        "period": "Sep 2025 - Feb 2026",
+        "period": "Sep 2025 - May 2026",
         "bullets": [
-          "Разрабатывал масштабируемые веб-приложения и AI-решения на TypeScript, Node.js, Python и современных фреймворках NestJS, Express, FastAPI. Создавал REST/GraphQL API, системы сбора/пакетной обработки данных и работал с RDBMS/NoSQL: MongoDB, MySQL, Prisma, Redis.",
-          "Управлял развёртыванием и инфраструктурой с помощью Docker, Nginx, PM2, Shell и Linux. Также создавал AI и ML/DL решения на PyTorch, OpenCV и интегрировал современные AI API: Codex, Claude, Gemini."
-        ]
-      },
-      {
-        "title": "Full-Stack разработчик",
-        "company": "Incode Group",
-        "location": "Ташкент, Узбекистан",
-        "period": "Aug 2024 - Aug 2025",
-        "bullets": [
-          "Проектировал и разрабатывал MERN-приложения на React и TypeScript, создавал надёжную серверную часть на Node.js/Express.js и реализовал аутентификацию с помощью JWT, express-session и BcryptJS.",
-          "Настраивал DNS и firewall на Linux, развёртывал с помощью Docker и Nginx, интегрировал Grafana для мониторинга, а также управлял инфраструктурой через PM2, XShell, FileZilla, GitHub и пакетные менеджеры (Yarn, nvm, npm)."
+          "Проектировал и разрабатывал масштабируемые веб-приложения и AI-решения на TypeScript, Node.js, NestJS, Express.js, FastAPI и Python.",
+          "Создавал и поддерживал RESTful API и GraphQL-сервисы, интегрируя MongoDB, MySQL, Redis и Prisma ORM.",
+          "Управлял развёртыванием приложений и серверной инфраструктурой с помощью Docker, Nginx, PM2 и Linux, обеспечивая надёжность production-окружений.",
+          "Реализовывал AI-функции с использованием PyTorch, OpenCV и современных LLM API для автоматизации процессов и расширения возможностей приложений.",
+          "Сотрудничал с кросс-функциональными командами для поставки готового к production ПО, следуя принципам чистой архитектуры и лучшим инженерным практикам."
         ]
       },
       {
         "title": "Backend и Frontend разработчик",
         "company": "Atlantis Gravity",
         "location": "Стамбул, Турция",
-        "period": "Jan 2023 - Aug 2024",
+        "period": "Jan 2024 - Aug 2025",
         "bullets": [
-          "Разрабатывал и поддерживал full-stack веб-приложения на Node.js, Python, React и Next.js — создавал RESTful API, интегрировал MongoDB/MySQL и разрабатывал адаптивные интерфейсы на HTML, CSS и Bootstrap.",
-          "Сотрудничал с командой над реализацией функций, исправлением багов и повышением производительности, а также управлял monorepo и контролем версий через npm/Yarn/nvm и GitHub."
+          "Разрабатывал и поддерживал full-stack веб-приложения на React.js, Next.js, Node.js, Express.js и Python.",
+          "Проектировал адаптивные пользовательские интерфейсы и интегрировал backend-сервисы с базами данных MongoDB и MySQL.",
+          "Создавал и использовал RESTful API, улучшая производительность приложений и общий пользовательский опыт.",
+          "Сотрудничал с разработчиками через Git/GitHub в общем monorepo, внося вклад в поставку функций, исправление багов и улучшение качества кода.",
+          "Участвовал в поддержке, тестировании и непрерывном улучшении production-приложений."
         ]
       }
     ]

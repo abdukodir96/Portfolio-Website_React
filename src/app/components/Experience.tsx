@@ -12,9 +12,8 @@ type Job = {
 };
 
 const technologiesByJob = [
-  ["TypeScript", "NestJS", "Express", "FastAPI", "MongoDB", "MySQL", "Prisma", "Redis", "Docker", "Nginx", "PyTorch", "OpenCV"],
-  ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "JWT", "Docker", "Nginx", "PM2", "Linux", "Grafana", "GitHub"],
-  ["Node.js", "Python", "React", "Next.js", "MongoDB", "MySQL", "HTML", "CSS", "Bootstrap", "GitHub"]
+  ["TypeScript", "Node.js", "NestJS", "Express.js", "FastAPI", "Python", "GraphQL", "MongoDB", "MySQL", "Redis", "Prisma", "Docker", "Nginx", "PM2", "Linux", "PyTorch", "OpenCV"],
+  ["React.js", "Next.js", "Node.js", "Express.js", "Python", "MongoDB", "MySQL", "Git", "GitHub", "HTML", "CSS", "Bootstrap"]
 ];
 
 export function Experience() {

@@ -46,33 +46,29 @@
     "description": "Building full-stack, DevOps, and AI-integrated solutions across teams in Uzbekistan and Türkiye.",
     "jobs": [
       {
-        "title": "FullStack and DevOps Engineer",
+        "title": "Full-Stack & DevOps Engineer",
         "company": "Digital City IT Center",
         "location": "Tashkent, Uzbekistan",
-        "period": "Sep 2025 - Feb 2026",
+        "period": "Sep 2025 - May 2026",
         "bullets": [
-          "Developed scalable web applications and AI solutions using TypeScript, Node.js, Python and modern frameworks like NestJS, Express, and FastAPI. Built REST/GraphQL APIs, data crawling/batching systems and RDBS/NoSQL as MongoDB, MySQL, Prisma, Redis.",
-          "Managed deployment and infrastructure using Docker, Nginx, PM2, Shell and Linux. Also built AI and ML/DL solutions using PyTorch, OpenCV, and integrated modern AI APIs Codex, Claude, Gemini."
+          "Designed and developed scalable web applications and AI-powered solutions using TypeScript, Node.js, NestJS, Express.js, FastAPI, and Python.",
+          "Built and maintained RESTful APIs and GraphQL services while integrating MongoDB, MySQL, Redis, and Prisma ORM.",
+          "Managed application deployment and server infrastructure using Docker, Nginx, PM2, and Linux, ensuring reliable production environments.",
+          "Implemented AI features using PyTorch, OpenCV, and modern LLM APIs to automate workflows and improve application capabilities.",
+          "Collaborated with cross-functional teams to deliver production-ready software while following clean architecture and engineering best practices."
         ]
       },
       {
-        "title": "Full-Stack Developer",
-        "company": "Incode Group",
-        "location": "Tashkent, Uzbekistan",
-        "period": "Aug 2024 - Aug 2025",
-        "bullets": [
-          "Architected and developed MERN applications with React and TypeScript, building robust server-side apps in Node.js/Express.js and implementing authentication with JWT, express-session, and BcryptJS.",
-          "Configured DNS and firewalls on Linux, deployed with Docker and Nginx, integrated Grafana for monitoring, and managed infrastructure using PM2, XShell, FileZilla, GitHub, and package managers (Yarn, nvm, npm)."
-        ]
-      },
-      {
-        "title": "Backend and Frontend Developer",
+        "title": "Backend & Frontend Developer",
         "company": "Atlantis Gravity",
         "location": "Istanbul, Türkiye",
-        "period": "Jan 2023 - Aug 2024",
+        "period": "Jan 2024 - Aug 2025",
         "bullets": [
-          "Developed and maintained fullstack web applications with Node.js, Python, React, and Next.js — building RESTful APIs, integrating MongoDB/MySQL, and creating responsive UIs with HTML, CSS, and Bootstrap.",
-          "Collaborated with the team to deliver features, fix bugs, and improve performance, while managing a monorepo with npm/Yarn/nvm and GitHub for version control."
+          "Developed and maintained full-stack web applications using React.js, Next.js, Node.js, Express.js, and Python.",
+          "Designed responsive user interfaces and integrated backend services with MongoDB and MySQL databases.",
+          "Built and consumed RESTful APIs while improving application performance and overall user experience.",
+          "Collaborated with developers using Git/GitHub within a shared monorepo, contributing to feature delivery, bug fixes, and code quality improvements.",
+          "Participated in software maintenance, testing, and continuous enhancement of production applications."
         ]
       }
     ]

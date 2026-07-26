@@ -46,33 +46,29 @@
     "description": "O'zbekiston va Turkiyadagi jamoalarda to'liq stack, DevOps va AI integratsiyalashgan yechimlar yarataman.",
     "jobs": [
       {
-        "title": "FullStack va DevOps muhandisi",
+        "title": "Full-Stack va DevOps muhandisi",
         "company": "Digital City IT Center",
         "location": "Toshkent, O'zbekiston",
-        "period": "Sep 2025 - Feb 2026",
+        "period": "Sep 2025 - May 2026",
         "bullets": [
-          "TypeScript, Node.js, Python va NestJS, Express, FastAPI kabi zamonaviy freymvorklar yordamida kengaytiriladigan veb-ilovalar va AI yechimlarini ishlab chiqdim. REST/GraphQL API'lar, ma'lumot yig'ish/batching tizimlari va MongoDB, MySQL, Prisma, Redis kabi RDBMS/NoSQL bazalarini qurdim.",
-          "Docker, Nginx, PM2, Shell va Linux yordamida deploy va infratuzilmani boshqardim. Shuningdek, PyTorch, OpenCV yordamida AI va ML/DL yechimlarini yaratdim hamda Codex, Claude, Gemini kabi zamonaviy AI API'larni integratsiya qildim."
-        ]
-      },
-      {
-        "title": "Full-Stack dasturchi",
-        "company": "Incode Group",
-        "location": "Toshkent, O'zbekiston",
-        "period": "Aug 2024 - Aug 2025",
-        "bullets": [
-          "React va TypeScript yordamida MERN ilovalarini loyihalashtirdim va ishlab chiqdim, Node.js/Express.js asosida ishonchli server tomonini qurdim hamda JWT, express-session va BcryptJS yordamida autentifikatsiyani amalga oshirdim.",
-          "Linux'da DNS va firewall'larni sozladim, Docker va Nginx yordamida deploy qildim, monitoring uchun Grafana'ni integratsiya qildim, shuningdek PM2, XShell, FileZilla, GitHub va paket menejerlari (Yarn, nvm, npm) yordamida infratuzilmani boshqardim."
+          "TypeScript, Node.js, NestJS, Express.js, FastAPI va Python yordamida kengaytiriladigan veb-ilovalar va AI asosidagi yechimlarni loyihalashtirdim va ishlab chiqdim.",
+          "RESTful API'lar va GraphQL xizmatlarini qurdim va qo'llab-quvvatladim, shu bilan birga MongoDB, MySQL, Redis va Prisma ORM'ni integratsiya qildim.",
+          "Docker, Nginx, PM2 va Linux yordamida ilova deploy va server infratuzilmasini boshqardim, ishonchli production muhitlarini ta'minladim.",
+          "PyTorch, OpenCV va zamonaviy LLM API'lardan foydalanib AI funksiyalarini amalga oshirdim, ish jarayonlarini avtomatlashtirdim va ilova imkoniyatlarini yaxshiladim.",
+          "Funksional jamoalar bilan hamkorlikda toza arxitektura va muhandislik best practice'lariga rioya qilgan holda production uchun tayyor dasturiy ta'minotni yetkazib berdim."
         ]
       },
       {
         "title": "Backend va Frontend dasturchi",
         "company": "Atlantis Gravity",
         "location": "Istanbul, Turkiya",
-        "period": "Jan 2023 - Aug 2024",
+        "period": "Jan 2024 - Aug 2025",
         "bullets": [
-          "Node.js, Python, React va Next.js yordamida to'liq stack veb-ilovalarni ishlab chiqdim va qo'llab-quvvatladim — RESTful API'lar qurdim, MongoDB/MySQL'ni integratsiya qildim va HTML, CSS, Bootstrap yordamida moslashuvchan interfeyslar yaratdim.",
-          "Jamoa bilan hamkorlikda funksiyalarni yetkazib berdim, xatolarni tuzatdim va unumdorlikni oshirdim, shuningdek npm/Yarn/nvm yordamida monorepo'ni va versiya nazoratini GitHub orqali boshqardim."
+          "React.js, Next.js, Node.js, Express.js va Python yordamida to'liq stack veb-ilovalarni ishlab chiqdim va qo'llab-quvvatladim.",
+          "Moslashuvchan foydalanuvchi interfeyslarini loyihalashtirdim va backend xizmatlarini MongoDB hamda MySQL bazalari bilan integratsiya qildim.",
+          "RESTful API'larni qurdim va ulardan foydalandim, ilova unumdorligi va foydalanuvchi tajribasini yaxshiladim.",
+          "Umumiy monorepo doirasida dasturchilar bilan Git/GitHub orqali hamkorlik qildim, funksiyalar yetkazib berish, xatolarni tuzatish va kod sifatini yaxshilashga hissa qo'shdim.",
+          "Production ilovalarini texnik xizmat ko'rsatish, testdan o'tkazish va uzluksiz takomillashtirishda ishtirok etdim."
         ]
       }
     ]

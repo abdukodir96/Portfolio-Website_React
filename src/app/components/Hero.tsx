@@ -138,7 +138,7 @@ export function Hero() {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div className="text-center lg:text-left">
-                <div className="text-2xl md:text-3xl mb-1">5+</div>
+                <div className="text-2xl md:text-3xl mb-1">10+</div>
                 <div className="text-sm text-muted-foreground">
                   {t("hero.statsProjects")}
                 </div>

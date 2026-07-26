@@ -49,30 +49,26 @@
         "title": "풀스택 및 데브옵스 엔지니어",
         "company": "Digital City IT Center",
         "location": "타슈켄트, 우즈베키스탄",
-        "period": "Sep 2025 - Feb 2026",
+        "period": "Sep 2025 - May 2026",
         "bullets": [
-          "TypeScript, Node.js, Python 및 NestJS, Express, FastAPI와 같은 최신 프레임워크를 사용하여 확장 가능한 웹 애플리케이션과 AI 솔루션을 개발했습니다. REST/GraphQL API, 데이터 크롤링/배칭 시스템, MongoDB·MySQL·Prisma·Redis 등 RDBMS/NoSQL을 구축했습니다.",
-          "Docker, Nginx, PM2, Shell, Linux를 사용하여 배포 및 인프라를 관리했습니다. 또한 PyTorch, OpenCV를 활용한 AI 및 ML/DL 솔루션을 구축하고 Codex, Claude, Gemini와 같은 최신 AI API를 통합했습니다."
-        ]
-      },
-      {
-        "title": "풀스택 개발자",
-        "company": "Incode Group",
-        "location": "타슈켄트, 우즈베키스탄",
-        "period": "Aug 2024 - Aug 2025",
-        "bullets": [
-          "React와 TypeScript로 MERN 애플리케이션을 설계 및 개발하고, Node.js/Express.js로 견고한 서버 사이드를 구축했으며 JWT, express-session, BcryptJS를 사용한 인증을 구현했습니다.",
-          "Linux에서 DNS와 방화벽을 구성하고 Docker와 Nginx로 배포했으며, 모니터링을 위해 Grafana를 연동하고 PM2, XShell, FileZilla, GitHub 및 패키지 매니저(Yarn, nvm, npm)로 인프라를 관리했습니다."
+          "TypeScript, Node.js, NestJS, Express.js, FastAPI, Python을 사용하여 확장 가능한 웹 애플리케이션과 AI 기반 솔루션을 설계 및 개발했습니다.",
+          "RESTful API와 GraphQL 서비스를 구축 및 유지보수하며 MongoDB, MySQL, Redis, Prisma ORM을 연동했습니다.",
+          "Docker, Nginx, PM2, Linux를 사용하여 애플리케이션 배포와 서버 인프라를 관리하며 안정적인 프로덕션 환경을 보장했습니다.",
+          "PyTorch, OpenCV 및 최신 LLM API를 활용해 AI 기능을 구현하여 워크플로우를 자동화하고 애플리케이션 기능을 향상시켰습니다.",
+          "클린 아키텍처와 엔지니어링 모범 사례를 따르며 프로덕션에 바로 사용할 수 있는 소프트웨어를 제공하기 위해 여러 팀과 협업했습니다."
         ]
       },
       {
         "title": "백엔드 및 프론트엔드 개발자",
         "company": "Atlantis Gravity",
         "location": "이스탄불, 튀르키예",
-        "period": "Jan 2023 - Aug 2024",
+        "period": "Jan 2024 - Aug 2025",
         "bullets": [
-          "Node.js, Python, React, Next.js를 사용하여 풀스택 웹 애플리케이션을 개발 및 유지보수했으며, RESTful API를 구축하고 MongoDB/MySQL을 연동했으며 HTML, CSS, Bootstrap으로 반응형 UI를 제작했습니다.",
-          "팀과 협업하여 기능을 제공하고 버그를 수정했으며 성능을 개선했고, npm/Yarn/nvm과 GitHub를 통해 모노레포와 버전 관리를 담당했습니다."
+          "React.js, Next.js, Node.js, Express.js, Python을 사용하여 풀스택 웹 애플리케이션을 개발 및 유지보수했습니다.",
+          "반응형 사용자 인터페이스를 설계하고 MongoDB 및 MySQL 데이터베이스와 백엔드 서비스를 연동했습니다.",
+          "RESTful API를 구축 및 활용하여 애플리케이션 성능과 전반적인 사용자 경험을 개선했습니다.",
+          "공유 모노레포 내에서 Git/GitHub를 통해 개발자들과 협업하며 기능 제공, 버그 수정, 코드 품질 개선에 기여했습니다.",
+          "프로덕션 애플리케이션의 유지보수, 테스트, 지속적인 개선 작업에 참여했습니다."
         ]
       }
     ]

@@ -68,7 +68,7 @@ export function Projects() {
   const visibleProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
-    <section className="py-20 px-4 bg-secondary/5">
+    <section className="py-20 px-4">
       <div className="max-w-[108rem] mx-auto">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl">{t("projects.title")}</h2>

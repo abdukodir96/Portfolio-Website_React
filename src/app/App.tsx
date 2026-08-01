@@ -7,9 +7,8 @@ import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
-import { ThemeProvider } from "./components/theme-provider";
-import { ThemeToggle } from "./components/theme-toggle";
 import { LanguageToggle } from "./components/language-toggle";
+import { ScrollSequence } from "./components/ScrollSequence";
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -24,8 +23,9 @@ export default function App() {
   ];
 
   return (
-    <ThemeProvider defaultTheme="light" storageKey="portfolio-theme">
-      <div className="min-h-screen bg-background transition-colors duration-300">
+    <>
+      <ScrollSequence />
+      <div className="relative z-10 min-h-screen transition-colors duration-300">
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
           <div className="max-w-[108rem] mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,13 +48,11 @@ export default function App() {
                   ))}
                 </div>
                 <LanguageToggle />
-                <ThemeToggle />
               </div>
 
               {/* Mobile menu section */}
               <div className="md:hidden flex items-center space-x-2">
                 <LanguageToggle />
-                <ThemeToggle />
                 <Button
                   variant="ghost"
                   size="icon"
@@ -109,7 +107,7 @@ export default function App() {
         </main>
 
         {/* Footer */}
-        <footer className="bg-secondary/10 py-12 px-4">
+        <footer className="py-12 px-4">
           <div className="max-w-[75.6rem] mx-auto text-center">
             <h3 className="mb-4">Abdukodir Sheraliev (Steve)</h3>
             <p className="text-muted-foreground mb-6">
@@ -121,6 +119,6 @@ export default function App() {
           </div>
         </footer>
       </div>
-    </ThemeProvider>
+    </>
   );
 }

@@ -42,7 +42,7 @@ export function Skills() {
   ];
 
   return (
-    <section className="py-20 px-4 bg-secondary/5">
+    <section className="py-20 px-4">
       <div className="max-w-[97.2rem] mx-auto">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl">{t("skills.title")}</h2>

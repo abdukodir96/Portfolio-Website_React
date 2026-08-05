@@ -81,6 +81,7 @@
     "viewAll": "Barchasini ko'rish",
     "showLess": "Kamroq ko'rsatish",
     "items": [
+      { "title": "BookMind", "description": "NotebookLM uslubidagi AI o'qish yordamchisi: PDF/EPUB/DOCX/TXT hujjat yuklanadi va map-reduce usulida xulosalar, manbaga asoslangan (citation) RAG chat va ikki ovozli podkast uslubidagi audio sharh olinadi. FastAPI + MongoDB Atlas Vector Search backend, Next.js frontend, Hostinger VPS (Docker/nginx) va Vercel'da deploy qilingan." },
       { "title": "MediBridge", "description": "Koreyadagi tibbiy turizm marketpleysi, mikroservis arxitekturasida qurilgan — NestJS API Gateway, GraphQL/MongoDB asosidagi core service, Stripe orqali escrow to'lovlar (PostgreSQL/Prisma), real vaqtda ko'p tilli chat va tarjima/klinika tavsiyasi uchun Python/FastAPI AI service, hammasi RabbitMQ orqali bog'langan." },
       { "title": "NearHelp", "description": "AI asosidagi xizmat tavsiyalari, narx bashorati va semantik qidiruvga ega uy xizmatlari marketpleysi (santexnika, elektrik, ta'mirlash). Socket.IO orqali real vaqtda chat va ko'p tillilik (EN/KR/UZ)." },
       { "title": "QuickStay", "description": "Mehmon/egasi ikki xil rolga ega mehmonxona bron qilish platformasi. Server tomonidagi sana ustma-ustligini tekshirish qayta bron qilishning oldini oladi, Stripe va imzolangan webhook'lar to'lovlarni tasdiqlaydi, Clerk autentifikatsiyasi esa MongoDB bilan real vaqtda sinxronlanadi." },

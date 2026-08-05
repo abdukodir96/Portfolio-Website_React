@@ -18,6 +18,12 @@ const BASE = import.meta.env.BASE_URL;
 
 const projectMeta = [
   {
+    image: `${BASE}bookmind.png`,
+    technologies: ["Next.js", "FastAPI", "MongoDB Atlas", "Vector Search", "OpenAI API", "Docker", "Vercel"],
+    github: "https://github.com/abdukodir96/BookMind",
+    demo: "https://bookmind.online"
+  },
+  {
     image: `${BASE}MediBridge.png`,
     technologies: ["Next.js", "NestJS", "GraphQL", "MongoDB", "PostgreSQL", "Prisma", "Socket.IO", "RabbitMQ", "FastAPI", "Stripe"],
     github: "#",

@@ -81,7 +81,7 @@
     "viewAll": "View All",
     "showLess": "Show Less",
     "items": [
-      { "title": "BookMind", "description": "NotebookLM-style AI reading assistant: upload a PDF/EPUB/DOCX/TXT and get map-reduce summaries, a citation-backed RAG chat with streaming answers, and two-host podcast-style audio overviews. FastAPI + MongoDB Atlas Vector Search backend, Next.js frontend, deployed on a Hostinger VPS with Docker/nginx and Vercel." },
+      { "title": "BookMind", "description": "NotebookLM-style AI reading assistant: upload a PDF/EPUB/DOCX/TXT and get map-reduce summaries, a citation-backed RAG chat with streaming answers, and two-host podcast-style audio overviews. FastAPI + MongoDB Atlas Vector Search backend, Next.js frontend, both deployed end-to-end on a Hostinger VPS with Docker and nginx." },
       { "title": "MediBridge", "description": "Korea medical tourism marketplace built on a microservice architecture — NestJS API Gateway, a GraphQL/MongoDB core service, Stripe-powered escrow payments (PostgreSQL/Prisma), real-time multilingual chat, and a Python/FastAPI AI service for translation and clinic recommendations, connected via RabbitMQ." },
       { "title": "NearHelp", "description": "Home services marketplace (plumbing, electrical, repair) with AI-powered service recommendations, price estimation, and semantic search. Multilingual (EN/KR/UZ) with real-time chat via Socket.IO." },
       { "title": "QuickStay", "description": "Hotel booking platform with dual guest/owner roles. Server-side date-overlap checks prevent double booking, Stripe + signed webhooks confirm payments, and Clerk auth syncs in real time with MongoDB." },
